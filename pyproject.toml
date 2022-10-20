@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Frédéric Lavner <frederic.lavner@aphilia.io>"]
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+open-spiel = "^1.2"
+pygame = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+mypy = "^0.982"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
